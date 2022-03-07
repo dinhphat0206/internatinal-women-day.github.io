@@ -25,7 +25,7 @@ main {
 body {
     margin: 0;
     --color-text: #cdd000;
-    --color-bg: #af1ba3;
+    --color-bg: #971d6ed8;
     --color-link: #6b5537;
     --color-link-hover: #fff;
     --color-content-title-sub: #1aad75;
@@ -255,6 +255,10 @@ a:focus {
 
 .pos-10 {
     grid-area: 37 / 39 / 48 / 47;
+}
+
+.pos-11 {
+    grid-area: -50 /-50/ 47/ 45;
 }
 
 .content__title {
